@@ -1,0 +1,16 @@
+{
+  "ftp": {
+    "host": "ftp.example.com",         // FTP server address (Required)
+    "port": 21,                        // FTP port, default is 21 (Optional)
+    "user": "your_username",           // FTP username (Required)
+    "password": "your_password"        // FTP password (Required)
+  },
+  "paths": {
+    "modsServerPath": "/server/mods",       // Server path for mods (Required)
+    "emotesServerPath": "/server/emotes",   // Server path for emotes, if used (Optional)
+    "modsLocalPath": "\.minecraft\mods",  // Local PC path for mods (Required)
+    "emotesLocalPath": "\.minecraft\emotes", // Local PC path for emotes (Optional)
+    "minecraftLauncherPath": "C:\path\to\Minecraft.exe" // Minecraft launcher path, for auto-launch (Optional)
+  },
+  "timeout": 30000 // Timeout for FTP operations in milliseconds (Optional, default is 30000)
+}
